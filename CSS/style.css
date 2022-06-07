@@ -1,0 +1,863 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+/********************************************************/
+/********************************************************/
+header.contenido{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    font-size: 14px;
+}
+section#Container-Cabezera-all{
+    position: fixed;
+    background: white;
+}
+section.contenido{
+    padding:0;
+}
+div#Logo{
+    padding-left: 50px;
+}
+nav.Navegacion{
+    margin: auto;
+}
+nav ul li{
+    float: left;
+    margin-left: 30px;
+}
+div#Descuento{
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+    background:#ff4d57!important;
+    color: white;
+}
+div.Porciento{
+    line-height: 5px;
+    height: 30px;
+}
+img.Logo_img, div#Descuento img{
+    margin: 0;
+    padding: 0;
+}
+div#Descuento img{
+    position: absolute;
+    bottom: 37px;
+    margin-left: -9px;
+}
+section.contenido{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 96px;
+}
+img.Logo-Portada{
+    margin-left: -50px;   
+}
+div#Container-Portada{
+    background: rgba(0,0,0,.65)
+}
+video#video-background{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+div#Container-Logo-Portada{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2px;
+}
+div#Container-slogan-Milano{
+    color: #c9b396 !important;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 10px;
+}
+div#Container-slogan{
+    color: black !important;
+    font-size: 29px !important;
+    font-weight: 700;
+    text-align: center;
+    word-spacing: 10px;
+    padding-top: 80px;
+}
+div.Push-Pasarela{
+    color: #c9b396 !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 1px solid #c9b396;
+}
+div.Push-Pasarela:hover{
+    background-color: #1d2124!important
+}
+div#Container-Logo-Portada div.Push-Pasarela center{
+    border-radius: 25%;
+    background-color: transparent !important;
+    font-weight: 100;
+    margin-left: -29px;
+}
+div.Container-Estrella-all, div#Container-Estrella{
+    padding: 0;
+}
+div#Estrella{
+    height: 15px;
+}
+div#Estrella{
+    background-image: url(../IMG/Estrellas/Estrellas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Estrella-P0{
+    background-image: url(../IMG/Academia_Milano/Iconos/me-gusta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Estrella-P1{
+    background-image: url(../IMG/Academia_Milano/Iconos/wifi_signal_icon_153685.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Estrella-P2{
+    background-image: url(../IMG/Academia_Milano/Iconos/32officeicons-6_89731.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Estrella-P3{
+    background-image: url(../IMG/Academia_Milano/Iconos/Studio-mic-icon_30398.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Estrella-P4{
+    background-image: url(../IMG/Academia_Milano/Iconos/Speaker_icon-icons.com_54138.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Estrella-P5{
+    background-image: url(../IMG/Academia_Milano/Iconos/travel_journey-15_icon-icons.com_56001.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Redes-Sociales-1{
+    background-image: url(../IMG/Redes-Sociales/descargar.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Redes-Sociales-2{
+    background-image: url(../IMG/Redes-Sociales/Twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Redes-Sociales-3{
+    background-image: url(../IMG/Redes-Sociales/IG.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+div#Container-Texto{
+    text-align: center;
+    color: #646a79;
+}
+div.Container-Academia{
+    margin: 24px;
+    padding: 15px
+}
+div.Container-Academia div{
+    text-align: center;
+    color: #646a79;
+}
+div.Titulo{
+    color: #000000 !important;
+}
+div#Estrellas_P2{
+    background: #f5f7fa;
+}
+div#Container-slogan_P2{
+    background: #f5f7fa;
+    color: black !important;
+    font-size: 29px !important;
+    font-weight: 700;
+    text-align: center;
+    word-spacing: 10px;
+    padding-top: 40px;
+}
+div#Container-img-Reconocidos-and-Titulo-Inroduccion{
+    padding-left: 141px;
+    padding-top: 53px;
+    padding-right: 139px;
+    background: #f5f7fa;
+}
+div#Container-Texto-Reconocidos{
+    padding: 26px;
+    padding-right: 40px;
+}
+div.Titulo-Reconocidos{
+    font-size: 27px;
+    color: #3e4555;
+    font-weight: bold;
+}
+div.Introduccion-Reconocidos{
+    font-size: 16px;
+    color: #646a79;
+    font-weight: bold;
+}
+div.Continuar a{
+    color:#c9b396!important;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.Continuar{
+    color:#c9b396!important;
+}
+div.Continuar a:hover{
+    text-decoration: underline;
+}
+div#Container-img-Reconocidos, div#Container-Texto-Reconocidos{
+    background: white;
+}
+div#Container-Lista-all{
+    background: #f5f7fa;
+    padding: 46px;
+}
+div.caja-Lista{
+    padding: 28px;
+}
+div.img-Lista-Milano, div.Titulo-Lista-Milano, div.Introduccion-Lista-Milano, div.Ver-Mas{
+    background: white;
+}
+div.Titulo-Lista-Milano{
+    font-size: 16px;
+    color: #3e4555;
+}
+div.Introduccion-Lista-Milano{
+    font-size: 14px;
+    color: #646a79;
+}
+div.Ver-Mas a{
+    font-size: 14px;
+    color: #439cfb
+}
+div#Container-Lista-all div.img-Lista-Milano{
+    text-align: center;
+}
+div#Container-Seccion-7{
+    background: white;
+}
+div#Container-Seccion-7 div{
+    text-align: center;
+}
+div#Container-Section-7-Titulo-Milano{
+    font-size: 27px;
+    color: #3e4555;
+}
+div#Container-Section-7-slogan-Milano{
+    font-size: 12px;
+    color: #646a79;
+}
+div.Push-Postula-Aqui center{
+    background: #ff4d57;
+    color: white;
+    border-radius: 25px;
+    font-size: 23px;
+    border: 1px solid #ff4d57;
+    width: 160px;
+    padding: 13px 12px;
+    margin-left: -30px;
+}
+div.Push-Postula-Aqui center{
+    margin-right: 32%;
+}
+div#Container-Lista-all div{
+    text-align: center;
+}
+img.Img-Lista-Profesionales{
+    border-radius: 100%;
+    width: 26%;
+    height: 40%;
+}
+div#Nuestra-Pasarela{
+    padding-left: 10px;
+    margin: 5px;
+    margin-left: 14px;
+}
+div#Container-all-Nuestra-Pasarela{
+    background: #f5f7fa;
+}
+div.Ver-Pasarela{
+    background: transparent !important;
+    color: #646a79;
+}
+div.Ver-Pasarela center{
+    border-radius: 25px;
+    border: 1px solid #646a79;
+    font-size: 24px;
+}
+div.Ver-Pasarela:hover{
+    background: transparent !important;
+    color: #3e4555
+}
+section#Container-footer-all{
+    background: linear-gradient(22.5deg,#181c25,#3f4553)!important;
+}
+section#Container-footer-all div{
+    text-align: center;
+}
+div#Container-slogan-Milano-footer, div#Container-slogan_P3{
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+li.Navegacion_2{
+    padding-left: 22px;
+    font-size: 13px;
+    color: #c9b396;
+}
+li.Navegacion_2:hover{
+    text-decoration: underline;
+}
+/*BOOSTRAP*/
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/*Media Queries*/
+/*Pantallas Grandes, mayores a 1200px (lg) ---> col-lg*/
+@media(min-width: 1200px){
+    .col-lg-12{
+        width: 100%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-4{
+        width: 33.33333333%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-7{
+        width: 58.33333333%;
+    }
+    .col-lg-5{
+        width: 41.66666666%;
+    }
+    .col-lg-8{
+        width: 66.66666666%;
+    }
+    .col-lg-2{
+        width: 16.66666666%;
+    }
+    .col-lg-1{
+        width: 8.33333333%;
+    }
+    .col-lg-10{
+        width: 83.33333333%;
+    }
+    .col-lg-11{
+        width: 91.66666666%;
+    }
+    .col-lg-0{
+        display: none !important;
+    }
+}
+/*Pantallas pequeñas, mayores a 992 a 1199 (sm) ---> col-sm*/
+@media (max-width: 1199px) and (min-width: 992px){
+    .col-md-12{
+        width: 100%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-4{
+        width: 33.33333333%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-7{
+        width: 58.33333333%;
+    }
+    .col-md-5{
+        width: 41.66666666%;
+    }
+    .col-md-8{
+        width: 66.66666666%;
+    }
+    .col-md-2{
+        width: 16.66666666%;
+    }
+    .col-md-1{
+        width: 8.33333333%;
+    }
+    .col-md-10{
+        width: 83.33333333%;
+    }
+    .col-md-11{
+        width: 91.66666666%;
+    }
+    .col-md-0{
+        display: none !important;
+    }
+    div#vacio{
+        display:none !important;
+    }
+    div#Descuento{
+        width: 200px;
+        font-size: 11px;
+    }
+    img.Logo-Portada{
+        width: 100%;
+    }
+    div#Container-Logo-Portada{
+        color: white;
+        font-size: 36px !important
+    }
+    div#Container-slogan-Milano{
+        font-size: 15px !important;
+    }
+    video#video-background{
+        top: 338px;
+        width: revert;
+    }
+    div.Container-Academia{
+        margin: 15px;
+    }
+    div#Container-Texto-Reconocidos{
+        padding-right: 12px;
+        padding: 10px;
+    }
+    div.Titulo-Reconocidos{
+        font-size: 24px
+    }
+    div.Introduccion-Reconocidos{
+        font-size: 17px;
+    }
+    div.Continuar a{
+        font-size: 9px;
+    }
+    div#Container-Lista-all {
+        padding: 25px;
+    }
+    div#Logo img.Logo-Portada{
+        width: 30%;
+    }
+    nav ul li {
+        float: left;
+        margin-left: 18px;
+    }
+    div#Container-Estrella{
+        width: 100%;
+    }
+    div#Estrella{
+        margin-left: 5px;
+    }
+    div#Estrella-P0,div#Estrella-P1,div#Estrella-P2,div#Estrella-P3,div#Estrella-P4,div#Estrella-P5{
+        margin-left: 8px;
+    }
+    section.contenido {
+        font-size: 13px;
+    }
+    div#Container-Texto div{
+        font-size: 16px;
+    }
+    div#Container-slogan-Milano-footer, div#Container-slogan_P3 {
+        font-size: 16px;
+    }
+}
+/*Pantallas pequeñas, mayores a 768 a 991 (sm) ---> col-sm*/
+@media (max-width: 991px) and (min-width: 761px){
+    .col-sm-12{
+        width: 100%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-4{
+        width: 33.33333333%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-7{
+        width: 58.33333333%;
+    }
+    .col-sm-5{
+        width: 41.66666666%;
+    }
+    .col-sm-8{
+        width: 66.66666666%;
+    }
+    .col-sm-2{
+        width: 16.66666666%;
+    }
+    .col-sm-1{
+        width: 8.33333333%;
+    }
+    .col-sm-10{
+        width: 83.33333333%;
+    }
+    .col-sm-11{
+        width: 91.66666666%;
+    }
+    .col-sm-0{
+        display: none !important;
+    }
+    div#vacio{
+        display: none !important;
+    }
+    div#Logo{
+        padding-left: 248px;
+    }
+    div#Nav{
+        padding-left: 32px;
+    }
+    div#Descuento{
+        margin-top: 14px;
+        width: 200px;
+        margin-left: 64px;
+        font-size: 11px;
+    }
+    nav ul li{
+        float: left;
+        margin-left: 17px;
+    }
+    div#Descuento img{
+        position: absolute;
+        bottom: 33px;
+        margin-left: -9px;
+    }
+    img.Logo-Portada{
+        margin-left: -250px;
+    }
+    div#Container-Portada{
+        margin-top: 75px;
+    }
+    div#vacio-P1{
+        display: none !important;
+    }
+    div#Container-Logo-Portada div.Push-Pasarela center {
+        margin-left: -232px;
+        font-size: 24px;
+    }
+    video#video-background{
+        width: fit-content;
+        top: 374px;
+    }
+    div.Container-Academia{
+        margin: 12px;
+    }
+    div#Container-Texto-Reconocidos {
+        padding: 11px;
+        padding-right: 17px;
+    }
+    div.Titulo-Reconocidos {
+        font-size: 14px;
+    }
+    div.Introduccion-Reconocidos{
+        font-size: 10px;
+    }
+    div.Continuar a{
+        font-size: 12px;
+    }
+    div.Titulo-Lista-Milano {
+        font-size: 12px;
+    }
+    div.Introduccion-Lista-Milano {
+        font-size: 10px;
+    }
+    div.Push-Postula-Aqui center{
+        margin-left: -150px;
+    }
+    div#Logo img.Logo-Portada{
+        width: 50%;
+    }
+    div#Container-slogan-Milano{
+        font-size: 18px !important;
+    }
+    div#Container-Logo-Portada {
+        font-size: 41px;
+    }
+    div.Push-Pasarela {
+        font-size: 15px;
+    }
+    section.contenido {
+        font-size: 11px;
+    }
+    div.Ver-Pasarela center {
+        margin-left: -228px;
+    }
+    div#Container-slogan-Milano-footer, div#Container-slogan_P3 {
+        font-size: 11px;
+    }
+    div#Logo img.Logo-Footer{
+        margin-left: -247px;
+    }
+}
+/*Pantallas extra pequeñas, menores a 768 xs--> col-xs*/
+@media (max-width: 767px) and (min-width: 374px){
+    .col-xs-12{
+        width: 100%;
+    }
+    .col-xs-6{
+        width: 50%;
+    }
+    .col-xs-4{
+        width: 33.33333333%;
+    }
+    .col-xs-3{
+        width: 25%;
+    }
+    .col-xs-9{
+        width: 75%;
+    }
+    .col-xs-7{
+        width: 58.33333333%;
+    }
+    .col-xs-5{
+        width: 41.66666666%;
+    }
+    .col-xs-8{
+        width: 66.66666666%;
+    }
+    .col-xs-2{
+        width: 16.66666666%;
+    }
+    .col-xs-1{
+        width: 8.33333333%;
+    }
+    .col-xs-10{
+        width: 83.33333333%;
+    }
+    .col-xs-11{
+        width: 91.66666666%;
+    }
+    .col-xs-0{
+        display: none !important;
+    }
+    div#vacio{
+        display: none !important;
+    }
+    div#Logo{
+        padding-left: 50px;
+    }
+    nav ul li{
+        margin-left: 17px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    div#Descuento{
+        display: none;
+    }
+    div#Container-Portada{
+        margin-top: 75px;
+    }
+    div#Container-Logo-Portada{
+        font-size: 17px !important;
+    }
+    div#vacio-P1{
+        display: none;
+    }
+    div#Container-slogan-Milano{
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+        word-spacing: 4px;
+    }
+    video#video-background{
+        width: fit-content;
+    }
+    div#Academia-Milano-Models{
+        font-size: 16px !important;
+    }
+    div#Texto-P1{
+        font-size: 17px !important;
+    }
+    div.Container-Academia{
+        margin: 0px ;
+    }
+    div#Container-img-Reconocidos-and-Titulo-Inroduccion {
+        padding-left: 13px;
+        padding-top: 9px;
+        padding-right: 0px;
+    }
+    div#Container-Texto-Reconocidos {
+        padding: 11px;
+        padding-right: 17px;
+    }
+    div.Titulo-Reconocidos {
+        font-size: 16px;
+    }
+    div.Continuar a {
+        font-size: 12px;
+    }
+    img.img-Continuar{
+        width: 100%;
+    }
+    li.Navegacion_2 {
+        margin-top: 8px;
+        padding-left: 35px;
+    }
+    div.Ver-Pasarela center {
+        font-size: 22px;
+        margin-left: -31px;
+    }
+    div#Container-slogan-Milano-footer, div#Container-slogan_P3 {
+        font-size: 16px;
+    }
+    img.Logo-Footer{
+        margin-left: -28px;
+    }
+}
+@media (min-width:667px) and (max-width:767px){
+    .col-xp-12{
+        width: 100%;
+    }
+    .col-xp-6{
+        width: 50%;
+    }
+    .col-xp-4{
+        width: 33.33333333%;
+    }
+    .col-xp-3{
+        width: 25%;
+    }
+    .col-xp-9{
+        width: 75%;
+    }
+    .col-xp-7{
+        width: 58.33333333%;
+    }
+    .col-xp-5{
+        width: 41.66666666%;
+    }
+    .col-xp-8{
+        width: 66.66666666%;
+    }
+    .col-xp-2{
+        width: 16.66666666%;
+    }
+    .col-xp-1{
+        width: 8.33333333%;
+    }
+    .col-xp-10{
+        width: 83.33333333%;
+    }
+    .col-xp-11{
+        width: 91.66666666%;
+    }
+    .col-xp-0{
+        display: none !important;
+    }
+    div#Nav{
+        padding-left: 48px;
+        font-size: 18px;
+    }
+    nav ul li{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    div#Logo{
+        padding-right: 11px;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    div#Container-Portada{
+        margin-top: -4px;
+    }
+    video#video-background{
+        width: 100%;
+        height: 100%;
+        top: 281px;
+    }
+    div#Titulo-3-Container-Academia{
+        font-size: 23px !important;
+    }
+    div.Container-Academia div.Mensaje-Titulo{
+        font-size: 18px
+    }
+    div.Container-Academia{
+        margin: 25px ;
+    }
+    div#Container-img-Reconocidos-and-Titulo-Inroduccion {
+        padding-left: 34px;
+        padding-top: 21px;
+        padding-right: 31px;
+    }
+    div#Container-Texto-Reconocidos {
+        padding: 5px;
+        padding-right: 17px;
+        padding-left: 11px;
+    }
+    div.Titulo-Reconocidos {
+        font-size: 18px;
+    }
+    div.Introduccion-Reconocidos {
+        font-size: 13px;
+    }
+    div.Continuar a {
+        font-size: 14px;
+    }
+    img.img-Continuar{
+        width: 100%;
+    }
+    img.Logo-Portada {
+        margin-left: 0px;
+        width: 40%;
+    }
+    div#Container-Logo-Portada {
+        font-size: 35px !important;
+    }
+    div#Container-slogan-Milano {
+        font-size: 22px;
+    }
+    div#Logo center{
+        font-size: 17px;
+    }
+    div#Container-Academia-Milano-Models div{
+        font-size: 14px;
+    }
+    div#Titulo-3-Container-Academia {
+        font-size: 14px !important;
+    }
+    div.Push-Postula-Aqui center {
+        margin-left: 100px;
+    }
+}
